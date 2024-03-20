@@ -8,7 +8,7 @@ body {
 }
 
 .wrapper {
-  width: 1200px;
+  max-width: 1200px;
   margin: 0 auto;
 }
 
@@ -44,6 +44,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
+  flex-wrap: wrap;
 }
 .job_img {
   width: 400px;
@@ -78,6 +79,7 @@ body {
   flex-wrap: wrap;
   width: 800px;
   margin-top: 40px;
+  flex-wrap: wrap;
 }
 .job_point {
   display: flex;
